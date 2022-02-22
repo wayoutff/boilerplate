@@ -1,0 +1,9 @@
+
+# Node modules
+/node_modules/
+
+# Dist, compiled app by webpack
+dist/
+
+# vscode configs
+.vscode/

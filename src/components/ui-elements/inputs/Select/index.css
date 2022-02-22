@@ -1,0 +1,43 @@
+.root {
+  margin: 50px auto;
+  width: 100%;
+}
+
+.label {
+  margin: 0;
+  font-size: 14px;
+  color: #666
+}
+
+.select {
+  border: 1px solid #EEE;
+  border-radius: .25rem;
+  padding: .5rem 1.5rem .5rem .5rem;
+  display: flex;
+  margin-top: 4px;
+  background-color: white;
+  outline: 0;
+  min-height: 38px;
+  width: 100%;
+  cursor: pointer;
+  appearance: none;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  margin-top: -6px;
+  right: .7rem;
+  width: 0;
+  height: 0;
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+}

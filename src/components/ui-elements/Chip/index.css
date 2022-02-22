@@ -1,0 +1,27 @@
+.container {
+    background-color: goldenrod;
+}
+
+.root {
+    background-color: rgb(209, 209, 209);
+    border: 1px rgb(209, 209, 209) solid;
+    display: inline-block;
+    color: var(--text);
+    min-width: 32px;
+    max-width: 128px;
+    padding: 4px 16px;
+    border-radius: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.root:hover {
+    cursor: pointer;
+    background-color: rgb(194, 194, 194);
+    border: 1px rgb(194, 194, 194) solid;
+}
+
+.root:focus {
+    border: 1px rgb(194, 194, 194) solid;
+    background-color: rgb(240, 240, 240);
+}

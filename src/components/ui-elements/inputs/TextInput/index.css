@@ -1,0 +1,27 @@
+.root {
+  margin: 50px auto;
+}
+
+.label {
+  margin: 0;
+  font-size: 14px;
+  color: #666
+}
+
+.textarea {
+  display: block;
+  box-sizing: padding-box;
+  overflow: hidden;
+  margin-top: 4px;
+  padding: 10px;
+  width: 250px;
+  font-size: 14px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 8px rgba(black, .3);
+  border: 1px solid transparent;
+}
+
+.textarea:focus{
+  border: 1px solid #2ea44f;
+  outline: none;
+}

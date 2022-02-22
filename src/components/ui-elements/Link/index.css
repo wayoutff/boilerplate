@@ -1,0 +1,8 @@
+.root {
+  text-decoration: none;
+  color: #2ea44f;
+}
+
+.root:hover {
+  opacity: 0.6;
+}

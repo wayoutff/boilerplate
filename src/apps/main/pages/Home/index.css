@@ -1,0 +1,18 @@
+.root {
+  align-self: center;
+  font-size: 65px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+}
+
+.chip {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.chip:last-child {
+  margin-right: 0;
+}
